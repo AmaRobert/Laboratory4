@@ -1,0 +1,7 @@
+intreg n, index, x,suma = 0;
+citeste n;
+merge(index = 0; index miq n; index++){
+citeste x;
+suma = suma + x;
+}
+afiseaza(suma);

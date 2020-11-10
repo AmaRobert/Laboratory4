@@ -1,0 +1,13 @@
+intreg ba, c;
+citeste a;
+citeste b;
+citeste c;
+daca (a maq b si a maq c){
+afara (a);
+}
+daca (b mare a si b mare c){
+afara (b);
+}
+daca (c mare a si c mare b){
+afara (c);
+}

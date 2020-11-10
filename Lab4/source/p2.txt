@@ -1,0 +1,15 @@
+intreg n, index, aux;
+citeste n;
+aux = 1;
+daca (n egal 0 sau n egal 1)
+aux = 0;
+merge(index = 2; index micE n/2; index++){
+daca(n % index egal 0){
+aux = 0;
+}
+}
+daca(aux egal 1){
+afiseaza ("este prim")
+}
+altfel
+afiseaza ("nu este prim")

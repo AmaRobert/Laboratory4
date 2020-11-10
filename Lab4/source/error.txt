@@ -1,0 +1,8 @@
+Intreg 2n, index, x,suma = 0;
+citeste 2n;
+merge(index = 0; index micE 2n; index++){
+citeste x;
+suma = suma + x;
+}
+afiseaza(“Suma este cu: );
+afiseaza(suma)
